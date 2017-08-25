@@ -9,6 +9,7 @@ void swap(int array[], const int index1, const int index2);
 
 int main() {
     int A[TOTAL_SIZE] = { 10, 9, 8, 7, 6, 5, 4, 3, 2, 1 };
+
     print_array(A, TOTAL_SIZE);
     quicksort(A, 0, TOTAL_SIZE-1);
     print_array(A, TOTAL_SIZE);
